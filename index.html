@@ -17,8 +17,8 @@
             .then(response => response.json())
             .then(json => displayUserData(json))
 
-        function displayUserData(userDName) {
-            const userName = userDName.map(nameValue => nameValue.username);
+        function displayUserData(userLName) {
+            const userName = userLName.map(nameValue => nameValue.username);
             const ul = document.getElementById("name-list");
 
 
